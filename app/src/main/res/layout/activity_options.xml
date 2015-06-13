@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.edgarmeneses.serpenm.ActivityOptions"
+    android:background="@mipmap/fondomenu">
+
+
+    <ImageView
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        android:id="@+id/imgChanges"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/certificado1" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="135dp"
+        android:id="@+id/imgPassword"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="48dp"
+        android:background="@mipmap/configuracion1"
+        android:layout_below="@+id/textRepor"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Reporte"
+        android:id="@+id/textRepor"
+        android:layout_below="@+id/imgChanges"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cambiar Contraseña"
+        android:id="@+id/textControl"
+        android:layout_below="@+id/imgPassword"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nombre usurario"
+        android:id="@+id/txtname"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textRepor"
+        android:layout_toStartOf="@+id/textRepor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="400px"
+        android:layout_height="110px"
+        android:text="Cerrar Sesion"
+        android:id="@+id/btnCloseS"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

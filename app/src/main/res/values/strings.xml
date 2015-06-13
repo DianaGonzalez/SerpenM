@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SerpenM</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_options">Opciones</string>
+    <string name="title_activity_activity_change">Certificado</string>
+    <string name="title_activity_activity_password">Cambiar Contraseña</string>
+</resources>
